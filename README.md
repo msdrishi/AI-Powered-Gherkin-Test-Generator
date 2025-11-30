@@ -26,6 +26,10 @@ The **AI-Powered Gherkin Test Generator** is a Python-based automation tool that
 
 ---
 
+## Sample Output
+<img width="1786" height="951" alt="image" src="https://github.com/user-attachments/assets/eba4d26c-8228-414c-ab72-5b8270f8db8d" />
+
+
 ## 🚀 Getting Started
 
 ### 1️⃣ Prerequisites
