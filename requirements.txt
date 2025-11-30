@@ -1,1 +1,7 @@
 flask
+streamlit
+playwright
+beautifulsoup4
+lxml
+python-dotenv
+groq

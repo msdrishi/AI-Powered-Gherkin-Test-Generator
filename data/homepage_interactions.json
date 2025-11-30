@@ -1,0 +1,341 @@
+{
+  "page_url": "https://www.tivdak.com/patient-stories/",
+  "hover_interactions": [
+    {
+      "trigger": {
+        "text": "Results",
+        "selector_hint": "text=Results"
+      },
+      "revealed_links": [
+        {
+          "text": "Understanding the Data",
+          "href": "https://www.tivdak.com/study-results/understanding-the-data/"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "text": "Click to expand Results menu",
+        "selector_hint": "text=Click to expand Results menu"
+      },
+      "revealed_links": [
+        {
+          "text": "Understanding the Data",
+          "href": "https://www.tivdak.com/study-results/understanding-the-data/"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "text": "Support",
+        "selector_hint": "text=Support"
+      },
+      "revealed_links": [
+        {
+          "text": "Support Videos",
+          "href": "https://www.tivdak.com/resources-and-support/support-videos/"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "text": "Click to expand Support menu",
+        "selector_hint": "text=Click to expand Support menu"
+      },
+      "revealed_links": [
+        {
+          "text": "Support Videos",
+          "href": "https://www.tivdak.com/resources-and-support/support-videos/"
+        }
+      ]
+    }
+  ],
+  "click_interactions": [
+    {
+      "trigger": {
+        "text": "Important Facts",
+        "selector_hint": "text=Important Facts"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "Indication",
+        "selector_hint": "text=Indication"
+      },
+      "result": {
+        "type": "popup",
+        "title": "Cookie Disclaimer",
+        "actions": [
+          {
+            "text": "Manage Cookies",
+            "expected": "stay_on_same_page",
+            "target_url": null
+          },
+          {
+            "text": "Reject All Cookies",
+            "expected": "stay_on_same_page",
+            "target_url": null
+          }
+        ],
+        "nested_links": []
+      }
+    },
+    {
+      "trigger": {
+        "text": "Important Safety Information",
+        "selector_hint": "text=Important Safety Information"
+      },
+      "result": {
+        "type": "scroll",
+        "target_url": "https://www.tivdak.com/patient-stories/",
+        "scroll_delta": 1817
+      }
+    },
+    {
+      "trigger": {
+        "text": "Medication Guide",
+        "selector_hint": "text=Medication Guide"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "Prescribing Information",
+        "selector_hint": "text=Prescribing Information"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "US Healthcare Professionals",
+        "selector_hint": "text=US Healthcare Professionals"
+      },
+      "result": {
+        "type": "popup",
+        "title": "Are you a healthcare professional?",
+        "actions": [
+          {
+            "text": "Yes",
+            "expected": "stay_on_same_page",
+            "target_url": null
+          },
+          {
+            "text": "See reference",
+            "expected": "navigate",
+            "target_url": "https://www.tivdakhcp.com/#"
+          }
+        ],
+        "nested_links": [
+          {
+            "text": "No",
+            "href": "https://tivdak.com"
+          }
+        ]
+      }
+    },
+    {
+      "trigger": {
+        "text": "About Tivdak",
+        "selector_hint": "text=About Tivdak"
+      },
+      "result": {
+        "type": "popup",
+        "title": "",
+        "actions": [],
+        "nested_links": []
+      }
+    },
+    {
+      "trigger": {
+        "text": "Results",
+        "selector_hint": "text=Results"
+      },
+      "result": {
+        "type": "popup",
+        "title": "Cookie Disclaimer",
+        "actions": [],
+        "nested_links": []
+      }
+    },
+    {
+      "trigger": {
+        "text": "What to Expect",
+        "selector_hint": "text=What to Expect"
+      },
+      "result": {
+        "type": "popup",
+        "title": "",
+        "actions": [],
+        "nested_links": []
+      }
+    },
+    {
+      "trigger": {
+        "text": "Safety",
+        "selector_hint": "text=Safety"
+      },
+      "result": {
+        "type": "scroll",
+        "target_url": "https://www.tivdak.com/patient-stories/",
+        "scroll_delta": 1817
+      }
+    },
+    {
+      "trigger": {
+        "text": "Support",
+        "selector_hint": "text=Support"
+      },
+      "result": {
+        "type": "navigate",
+        "target_url": "https://www.tivdak.com/resources-and-support/"
+      }
+    },
+    {
+      "trigger": {
+        "text": "Hear From a Patient",
+        "selector_hint": "text=Hear From a Patient"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "Learn More",
+        "selector_hint": "text=Learn More"
+      },
+      "result": {
+        "type": "popup",
+        "title": "You are now leaving tivdak.com",
+        "actions": [
+          {
+            "text": "Close",
+            "expected": "stay_on_same_page",
+            "target_url": null
+          },
+          {
+            "text": "Cancel",
+            "expected": "stay_on_same_page",
+            "target_url": null
+          },
+          {
+            "text": "Continue",
+            "expected": "navigate_new_tab",
+            "target_url": "https://alishasjourney.com/"
+          }
+        ],
+        "nested_links": []
+      }
+    },
+    {
+      "trigger": {
+        "text": "1-844-747-1620",
+        "selector_hint": "text=1-844-747-1620"
+      },
+      "result": {
+        "type": "popup",
+        "title": "Cookie Disclaimer",
+        "actions": [],
+        "nested_links": []
+      }
+    },
+    {
+      "trigger": {
+        "text": "myjourney@mypatientstory.com",
+        "selector_hint": "text=myjourney@mypatientstory.com"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "Study Results",
+        "selector_hint": "text=Study Results"
+      },
+      "result": {
+        "type": "navigate",
+        "target_url": "https://www.tivdak.com/study-results/"
+      }
+    },
+    {
+      "trigger": {
+        "text": "1-800-FDA-1088",
+        "selector_hint": "text=1-800-FDA-1088"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "full Prescribing Information",
+        "selector_hint": "text=full Prescribing Information"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "Your Privacy Choices",
+        "selector_hint": "text=Your Privacy Choices"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "Terms of Use",
+        "selector_hint": "text=Terms of Use"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "Privacy Policy",
+        "selector_hint": "text=Privacy Policy"
+      },
+      "result": {
+        "type": "none"
+      }
+    },
+    {
+      "trigger": {
+        "text": "Sitemap",
+        "selector_hint": "text=Sitemap"
+      },
+      "result": {
+        "type": "popup",
+        "title": "Cookie Disclaimer",
+        "actions": [
+          {
+            "text": "Manage Cookies",
+            "expected": "stay_on_same_page",
+            "target_url": null
+          }
+        ],
+        "nested_links": []
+      }
+    },
+    {
+      "trigger": {
+        "text": "Contact Us",
+        "selector_hint": "text=Contact Us"
+      },
+      "result": {
+        "type": "none"
+      }
+    }
+  ]
+}

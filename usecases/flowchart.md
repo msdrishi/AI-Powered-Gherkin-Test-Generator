@@ -24,7 +24,7 @@ flowchart TD
     Skip1 --> Collect
     Skip2 --> Collect
     
-    Collect --> SendLLM[Send Data to LLM<br/>OpenAI/Gemini/Ollama]
+    Collect --> SendLLM[Send Data to LLM<br/>Groq]
     
     SendLLM --> AIAnalysis[LLM Analyzes:<br/>- Element Purpose<br/>- User Flow<br/>- Test Scenarios]
     

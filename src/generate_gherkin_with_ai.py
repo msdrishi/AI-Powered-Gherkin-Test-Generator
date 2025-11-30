@@ -13,7 +13,7 @@ def safe_print(message):
 
 def load_prompt_template():
     """Load the AI prompt template from markdown file"""
-    prompt_file = "Gherkin_Prompt.md"
+    prompt_file = "system_prompts/gherkin_prompt.md"
     
     if not os.path.exists(prompt_file):
         raise FileNotFoundError(f"Error: {prompt_file} not found. Please create the prompt file.")
@@ -84,7 +84,7 @@ Generate the Gherkin feature file now.
             gherkin_content = gherkin_content[gherkin_content.find("Feature:"):]
         
         # Save to file
-        with open('ai_generated_scenarios.feature', 'w', encoding='utf-8') as f:
+        with open('outputs/ai_generated_scenarios.feature', 'w', encoding='utf-8') as f:
             f.write(gherkin_content)
         
         safe_print("Scenarios generated: ai_generated_scenarios.feature")
@@ -97,4 +97,4 @@ Generate the Gherkin feature file now.
 
 
 if __name__ == "__main__":
-    generate_gherkin_with_groq("scan_results.json")
+    generate_gherkin_with_groq("data/homepage_interactions.json")

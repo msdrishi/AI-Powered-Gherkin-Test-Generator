@@ -184,7 +184,7 @@ if generate_btn:
         
         try:
             result = subprocess.run(
-                ["python", "test_playwright.py", url_input],
+                ["python", "src/playwright_interactions.py", url_input],
                 capture_output=True,
                 text=True,
                 timeout=120
@@ -229,7 +229,7 @@ if generate_btn:
         
         try:
             result = subprocess.run(
-                ["python", "generate_gherkin_with_ai.py"],
+                ["python", "src/generate_gherkin_with_ai.py"],
                 capture_output=True,
                 text=True,
                 timeout=60
@@ -255,8 +255,8 @@ if generate_btn:
 # Display generated feature file
 st.markdown('<div class="section-header">📝 Generated Test Scenarios</div>', unsafe_allow_html=True)
 
-if os.path.exists("ai_generated_scenarios.feature"):
-    with open("ai_generated_scenarios.feature", "r", encoding="utf-8") as f:
+if os.path.exists("outputs/ai_generated_scenarios.feature"):
+    with open("outputs/ai_generated_scenarios.feature", "r", encoding="utf-8") as f:
         feature_content = f.read()
     
     # Display in a code block with line numbers
